@@ -1,0 +1,386 @@
+ body
+{
+	padding: 0;
+	margin: 0;
+}
+body
+{
+	background-color: #fff;
+	font-family: Arial, Helvetica, Verdana;
+	font-size: 14px;
+	line-height: 22px;
+	color: #666;
+	position: relative;
+	-webkit-text-size-adjust: none;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	line-height: 1;
+	font-weight: bold;
+	margin: 20px 0 10px 0;
+}
+h1, h2, h3
+{
+	font-size: 18px;
+}
+h4, h5, h6
+{
+	font-size: 16px;
+}
+p
+{
+	margin: 0 0 10px 0;
+}
+
+
+nav:not(.mm-menu)
+{
+	display: none;
+}
+
+ .header-top{
+	 background-color: #5DFE13;
+	 position: absolute;
+	 top: 0px;
+	 left: 0px;
+	 width: 100%;
+	 height: 5px;
+z-index:1;	 
+ }
+ 
+.header
+{
+	background: black;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 40px;
+    position: absolute;
+	top:5px;
+
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;	
+	width: 100%;
+	height: 100px;
+	padding: 0 50px;
+	opacity:0.3;
+}
+
+.header a
+{
+	display: block;
+	width: 28px;
+	height: 18px;
+	padding: 11px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.header a:before,
+.header a:after
+{
+	content: '';
+	display: block;
+	background: #fff;
+	height: 2px;
+}
+.header a span
+{
+	background: #fff;
+	display: block;
+	height: 2px;
+	margin: 6px 0;
+}
+ 
+.content
+{
+	padding: 150px 50px 50px 50px;
+}
+
+.pics {  
+  position: absolute;
+  top: 5px;
+  left: 0px;
+    height:  500px;  
+    width:   100%;  
+     z-index:-1;
+} 
+ 
+.pics img {  
+     
+    width:  100%; 
+    height: 500px;
+}
+
+ .logo{
+	 color: #FCFEFC;
+	 font-size: 40px;
+	 font-family: arial,sans-serif;
+	 position: absolute;
+	 top: 50px;
+	 left: 10%;
+	 z-index: 1;
+	 text-decoration: none;
+	 cursor: pointer;
+ }
+ 
+ .beta{
+	 color: #FCFEFC;
+	 font-size: 15px;
+	 font-family: arial,sans-serif;
+	 position: absolute;
+	 top: 54px;
+	 left: 21%;
+	 z-index: 1;
+ }
+ 
+ .button{
+	 position: absolute;
+	 top: 5px;
+	 left: 90%;
+	 z-index: 1;
+	 background-color: #5DFE13;
+	 border: 0px solid;
+	 border-radius: 1px;
+	 padding: 5px;
+	 text-decoration: none;
+	 cursor: pointer;
+ }
+  
+ .head-content{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+
+.head-content:hover{
+	color: #5DFE13;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    cursor:pointer
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: lightgrey;
+    min-width: 160px;
+    z-index: 1;
+}
+
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+.tooltip{
+	position: absolute;
+	top: 40%;
+	left: 100%;
+	border: 5px solid;
+	border-color: white transparent  transparent  transparent ;
+}
+
+.tooltip:hover{
+	color: #5DFE13;
+}
+
+.side-img{
+	position: absolute;
+	top: 450px;
+	left: 90%;
+	width: 120px;
+	height: 100px;
+	z-index: 1;
+	border-radius: 40px;
+}
+ 
+ .head-position{
+	 position: absolute;
+	 top: 50px;
+	 left: 60%;
+	 z-index: 1;
+ }
+ 
+ 
+.body{
+	background-color: #E7E9E6;
+	position: absolute;
+	top: 500px;
+	left: 0px;
+	width: 100%;
+	height: 700px;
+}
+
+.box{
+	width: 400px;
+	height: 300px;
+	background-color:#FBF3F3;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+	
+	
+}
+
+.box:hover{
+	 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.button-more{
+background-color: blue;
+position: absolute;
+top: 40%;
+left: 39%;
+border: 0px solid transparent;
+border-radius: 30px;
+font-size: 20px;
+padding: 10px;
+width: 100px;
+cursor: pointer;	
+color: white;
+}
+
+.button-more span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button-more span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button-more:hover span {
+  padding-right: 25px;
+}
+
+.button-more:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.honour{
+	position: absolute; 
+	top: 27%;
+	left: 38%;
+	color: #D85353;
+}
+
+.honour-price{
+	position: absolute;
+	top: 30%;
+	left: 38.5%;
+	color: black;
+}
+
+.best-deal{
+	position: absolute;
+	top: 6%;
+	left: 31%;
+}
+
+.Today-deal{
+	position: absolute;
+	top: 6%;
+	left: 60%;
+}
+
+
+.deal-start{
+	position: absolute;
+	top: 13%;
+	left: 30%;
+	color: green;
+}
+
+.deal-left{
+	position: absolute;
+	top: 13%;
+	left: 60%;
+	color: green;
+}
+
+.deal-device{
+	width: 10%;
+	position: absolute;
+	top: 24%;
+	left: 25%;
+}
+
+.hr{
+	position: absolute;
+	top: 12%;
+	left: 25%;
+	width: 300px;
+}
+
+.hr-today{
+	position: absolute;
+	top: 12%;
+	left: 55%;
+	width: 300px;
+}
+
+/* Countdown */
+
+.container-time {
+  font-size: 40px;
+  position: absolute;
+	top: 21%;
+	left: 37%;
+}
+
+.jst-hours {
+  float: left;
+}
+.jst-minutes {
+  float: left;
+}
+.jst-seconds {
+  float: left;
+}
+.jst-clearDiv {
+  clear: both;
+}
+
+.bodyTimeoutBackground {
+  background: white;
+}
+
+.timeout {
+  color: red;
+  -webkit-animation-name: blinker;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: cubic-bezier(1.0,0,0,1.0);
+  -webkit-animation-duration: 1s;
+}
+@-webkit-keyframes blinker {
+  from { opacity: 1.0; }
+  to { opacity: 0.0; }
+}
+
+

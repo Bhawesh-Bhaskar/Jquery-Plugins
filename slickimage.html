@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>Responsive jQuery Carouseller</title>
+    <link rel="stylesheet" href="css/carouseller.css">
+	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="js/carouseller.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+</head>
+<body>
+	
+			
+		
+		
+		
+		
+		<div id="third" class="carouseller"> 
+			<a href="javascript:void(0)" class="carouseller__left">‹</a> 
+			<div class="carouseller__wrap"> 
+				<div class="carouseller__list"> 
+					<div class="car__4">
+						<img src="img/4.jpg" style="width:100%;height:500px;">
+	  <h1>Header1</h1>
+					</div>
+					<div class="car__4">
+						<img src="img/img.jpg" style="width:100%;height:500px;">
+	  <h1>Header1</h1>
+					</div>
+					<div class="car__4">
+						<img src="img/2.jpg" style="width:100%;height:500px;">
+	  <h1>Header1</h1>
+					</div>
+					<div class="car__4">
+						<img src="img/3.jpg" style="width:100%;height:500px;">
+	  <h1>Header1</h1>
+					</div>
+					<div class="car__4">
+						<img src="img/5.jpg" style="width:100%;height:500px;">
+	  <h1>Header1</h1>
+					</div>
+					<div class="car__4">
+						<img src="img/4.jpg" style="width:100%;height:500px;">
+	  <h1>Header1</h1>
+					</div>
+					<div class="car__4">
+						<img src="img/2.jpg" style="width:100%;height:500px;">
+	  <h1>Header1</h1>
+					</div>
+				</div>
+			</div>
+			<a href="javascript:void(0)" class="carouseller__right">›</a>
+		</div>
+		
+		
+		<script type="text/javascript">
+			$(function() {
+				$('#third').carouseller({ 
+					scrollSpeed: 800,
+					autoScrollDelay: 1600,
+					easing: 'linear'
+				});
+			});
+		</script>
+		
+		
+
+	
+
+</body>
+</html>
